@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Set up locales properly
 RUN apt-get update && \
-    apt-get install --yes --no-install-recommends locales && \
+    apt-get install --yes --no-install-recommends locales wget && \
     apt-get purge && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
