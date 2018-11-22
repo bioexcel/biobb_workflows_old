@@ -1,5 +1,5 @@
-FROM quay.io/biocontainers/gromacs:2018.2--h470a237_0
-#FROM gromacs/gromacs:2018.2
+FROM gromacs/gromacs
+#FROM quay.io/biocontainers/gromacs:2018.2--h470a237_0
 
 # avoid prompts from apt
 ENV DEBIAN_FRONTEND=noninteractive
