@@ -1,0 +1,9 @@
+name: biobb_workflows
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - biobb_common
+  - biobb_io
+  - biobb_model
+  - biobb_md
