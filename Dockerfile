@@ -1,17 +1,11 @@
 FROM gromacs/gromacs:2018.4
 #FROM quay.io/biocontainers/gromacs:2018.2--h470a237_0
 
-# Miniconda version/checksum
-ARG MINICONDA_VERSION=4.5.11
-# for latest release see https://repo.anaconda.com/miniconda/
-ARG MINICONDA_MD5=458324438b7b0e5afcc272b63d44195d
-# Re-calculate with
-# curl https://repo.anaconda.com/miniconda/Miniconda2-4.5.11-Linux-x86_64.sh | sha256sum
-ARG MINICONDA_SHA256=0e23e8d0a1a14445f78960a66b363b464b889ee3b0e3f275b7ffb836df1cb0c6
 
 
 ## Below is adapted from 
 # jupyter-repo2docker --debug https://github.com/bioexcel/biobb_workflows
+# See docker/LICENSE.repo2docker
 
 # avoid prompts from apt
 ENV DEBIAN_FRONTEND=noninteractive
