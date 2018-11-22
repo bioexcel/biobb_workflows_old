@@ -7,3 +7,5 @@ dependencies:
   - biobb_io
   - biobb_model
   - biobb_md
+  - pip:
+    - nglview
