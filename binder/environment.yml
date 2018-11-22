@@ -9,3 +9,6 @@ dependencies:
   - biobb_md
   - nglview
   - conda
+# Gromacs instead from base image https://hub.docker.com/r/gromacs/gromacs/tags/
+# as that supports hardware-specific optimizations
+#  - gromacs
