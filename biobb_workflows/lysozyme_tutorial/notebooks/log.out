@@ -1,0 +1,427 @@
+===============================================================================
+=                     MDWeb structure checking utility                        =
+=                      A. Hospital, J.L. Gelpi 2018                           =
+===============================================================================
+
+Running mutateside. Options: --mut Val2Tyr 
+1aki_fixed.pdb
+Structure 1aki_fixed.pdb loaded
+Title: 
+Experimental method: unknown
+Resolution: 0.0 A
+
+ Num. models: 1
+ Num. chains: 1 (A: Protein)
+ Num. residues:  129
+ Num. residues with ins. codes:  0
+ Num. HETATM residues:  0
+ Num. ligands or modified residues:  0
+ Num. water mol.:  0
+ Num. atoms:  1001
+
+Mutations to perform
+*:VAL2TYR
+Replacing VAL A2 into TYR
+  Renaming CG1 to CG
+  Deleting CG2
+  Adding new atom CD1
+  Adding new atom CE1
+  Adding new atom CZ
+  Adding new atom OH
+  Adding new atom CE2
+  Adding new atom CD2
+
+Checking new clashes
+No severe clashes detected
+1 Steric apolar clashes detected
+ TYR A2.CE2   PHE A38.CB      2.767 A
+No polar_acceptor clashes detected
+No polar_donor clashes detected
+No positive clashes detected
+No negative clashes detected
+Structure saved on 1aki_mutated.pdb
+Final Num. models: 1
+Final Num. chains: 1 (A: Protein)
+Final Num. residues:  129
+Final Num. residues with ins. codes:  0
+Final Num. HETATM residues:  0
+Final Num. ligands or modified residues:  0
+Final Num. water mol.:  0
+Final Num. atoms:  1006
+2019-01-21 22:27:56,566 [MainThread  ] [INFO ]  GROMACS Pdb2gmx 20181 version detected
+2019-01-21 22:27:56,889 [MainThread  ] [INFO ]  gmx pdb2gmx -f 1aki_mutated.pdb -o 1aki_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i p2g.itp
+
+2019-01-21 22:27:56,891 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:27:56,892 [MainThread  ] [INFO ]  
+Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+Reading 1aki_mutated.pdb...
+Read 1006 atoms
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+There are 1 chains and 0 blocks of water and 129 residues with 1006 atoms
+
+  chain  #res #atoms
+  1 'A'   129   1006  
+
+Reading residue database... (amber99sb-ildn)
+Processing chain 1 'A' (1006 atoms, 129 residues)
+Identified residue LYS1 as a starting terminus.
+Identified residue LEU129 as a ending terminus.
+Checking for duplicate atoms....
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 129 residues with 1965 atoms
+		--------- PLEASE NOTE ------------
+You have successfully generated a topology from: 1aki_mutated.pdb.
+The Amber99sb-ildn force field and the spce water model are used.
+		--------- ETON ESAELP ------------
+
+2019-01-21 22:27:56,895 [MainThread  ] [INFO ]  Compressing topology to: 1aki_pdb2gmx_top.zip
+2019-01-21 22:27:56,898 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/forcefield.itp
+2019-01-21 22:27:56,913 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/spce.itp
+2019-01-21 22:27:56,914 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/ions.itp
+2019-01-21 22:27:56,918 [MainThread  ] [INFO ]  Adding:
+2019-01-21 22:27:56,919 [MainThread  ] [INFO ]  ['p2g.itp', 'p2g.top']
+2019-01-21 22:27:56,920 [MainThread  ] [INFO ]  to: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_pdb2gmx_top.zip
+2019-01-21 22:28:00,294 [MainThread  ] [INFO ]  GROMACS Editconf 20181 version detected
+2019-01-21 22:28:00,296 [MainThread  ] [INFO ]  Centering molecule in the box.
+2019-01-21 22:28:00,297 [MainThread  ] [INFO ]  Distance of the box to molecule:   1.00
+2019-01-21 22:28:00,297 [MainThread  ] [INFO ]  Box type: cubic
+2019-01-21 22:28:00,320 [MainThread  ] [INFO ]  gmx editconf -f 1aki_pdb2gmx.gro -o 1aki_editconf.gro -d 1.0 -bt cubic -c
+
+2019-01-21 22:28:00,322 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:28:00,323 [MainThread  ] [INFO ]  Read 1965 atoms
+Volume: 55.8378 nm^3, corresponds to roughly 25100 electrons
+No velocities found
+    system size :  3.817  4.234  3.454 (nm)
+    diameter    :  5.010               (nm)
+    center      :  2.781  2.484  0.015 (nm)
+    box vectors :  3.817  4.235  3.455 (nm)
+    box angles  :  90.00  90.00  90.00 (degrees)
+    box volume  :  55.84               (nm^3)
+    shift       :  0.724  1.021  3.490 (nm)
+new center      :  3.505  3.505  3.505 (nm)
+new box vectors :  7.010  7.010  7.010 (nm)
+new box angles  :  90.00  90.00  90.00 (degrees)
+new box volume  : 344.48               (nm^3)
+
+2019-01-21 22:28:02,139 [MainThread  ] [INFO ]  GROMACS Solvate 20181 version detected
+2019-01-21 22:28:02,146 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_pdb2gmx_top.zip
+2019-01-21 22:28:02,146 [MainThread  ] [INFO ]  to:
+2019-01-21 22:28:02,147 [MainThread  ] [INFO ]  ['9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.itp', '9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.top']
+2019-01-21 22:28:02,148 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:28:02,150 [MainThread  ] [INFO ]  1aki_pdb2gmx_top.zip
+2019-01-21 22:28:02,151 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:28:02,152 [MainThread  ] [INFO ]  9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.itp
+2019-01-21 22:28:02,153 [MainThread  ] [INFO ]  9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.top
+2019-01-21 22:28:02,373 [MainThread  ] [INFO ]  gmx solvate -cp 1aki_editconf.gro -cs spc216.gro -o 1aki_solvate.gro -p 9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.top
+
+2019-01-21 22:28:02,374 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:28:02,375 [MainThread  ] [INFO ]  
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Adding line for 10643 solvent molecules to topology file (9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.top)
+
+2019-01-21 22:28:02,381 [MainThread  ] [INFO ]  Ignored file 9dabab49-f15e-4e6d-a825-70bcc7756e39/amber99sb-ildn.ff/forcefield.itp
+2019-01-21 22:28:02,394 [MainThread  ] [INFO ]  Ignored file 9dabab49-f15e-4e6d-a825-70bcc7756e39/amber99sb-ildn.ff/spce.itp
+2019-01-21 22:28:02,396 [MainThread  ] [INFO ]  Ignored file 9dabab49-f15e-4e6d-a825-70bcc7756e39/amber99sb-ildn.ff/ions.itp
+2019-01-21 22:28:02,401 [MainThread  ] [INFO ]  Adding:
+2019-01-21 22:28:02,401 [MainThread  ] [INFO ]  ['9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.itp', '9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.top']
+2019-01-21 22:28:02,402 [MainThread  ] [INFO ]  to: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_solvate_top.zip
+2019-01-21 22:28:16,718 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:28:16,720 [MainThread  ] [INFO ]  Will run a minimization md of 50000 steps
+2019-01-21 22:28:16,726 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_solvate_top.zip
+2019-01-21 22:28:16,727 [MainThread  ] [INFO ]  to:
+2019-01-21 22:28:16,727 [MainThread  ] [INFO ]  ['45e2fdac-cd54-46e9-889d-71f2add4a710/p2g.itp', '45e2fdac-cd54-46e9-889d-71f2add4a710/p2g.top']
+2019-01-21 22:28:16,728 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:28:16,729 [MainThread  ] [INFO ]  1aki_solvate_top.zip
+2019-01-21 22:28:16,730 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:28:16,730 [MainThread  ] [INFO ]  45e2fdac-cd54-46e9-889d-71f2add4a710/p2g.itp
+2019-01-21 22:28:16,731 [MainThread  ] [INFO ]  45e2fdac-cd54-46e9-889d-71f2add4a710/p2g.top
+2019-01-21 22:28:16,998 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_solvate.gro -r 1aki_solvate.gro -p 45e2fdac-cd54-46e9-889d-71f2add4a710/p2g.top -o 1aki_gppion.tpr -maxwarn 10
+
+2019-01-21 22:28:16,999 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:28:17,000 [MainThread  ] [INFO ]  
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmueller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. 10 (2014) pp. 381-393
+-------- -------- --- Thank You --- -------- --------
+
+Analysing residue names:
+There are:   129    Protein residues
+There are: 10643      Water residues
+Analysing Protein...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.117 0.117 0.117
+This run will generate roughly 3 Mb of data
+
+2019-01-21 22:28:23,887 [MainThread  ] [INFO ]  GROMACS Genion 20181 version detected
+2019-01-21 22:28:23,888 [MainThread  ] [INFO ]  To reach up 0.05 mol/litre concentration
+2019-01-21 22:28:23,894 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_solvate_top.zip
+2019-01-21 22:28:23,895 [MainThread  ] [INFO ]  to:
+2019-01-21 22:28:23,896 [MainThread  ] [INFO ]  ['5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.itp', '5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.top']
+2019-01-21 22:28:23,897 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:28:23,898 [MainThread  ] [INFO ]  1aki_solvate_top.zip
+2019-01-21 22:28:23,898 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:28:23,899 [MainThread  ] [INFO ]  5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.itp
+2019-01-21 22:28:23,900 [MainThread  ] [INFO ]  5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.top
+2019-01-21 22:28:24,011 [MainThread  ] [INFO ]  echo "SOL" | gmx genion -s 1aki_gppion.tpr -o 1aki_genion.gro -p 5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.top -neutral -conc 0.05 -seed 1993
+
+2019-01-21 22:28:24,013 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:28:24,014 [MainThread  ] [INFO ]  Will try to add 10 NA ions and 18 CL ions.
+Select a continuous group of solvent molecules
+Selected 13: 'SOL'
+
+Processing topology
+Replacing 28 solute molecules in topology file (5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.top)  by 10 NA and 18 CL ions.
+
+2019-01-21 22:28:24,016 [MainThread  ] [INFO ]  Ignored file 5bca5516-d56f-444d-bfb4-c2977e682c44/amber99sb-ildn.ff/forcefield.itp
+2019-01-21 22:28:24,032 [MainThread  ] [INFO ]  Ignored file 5bca5516-d56f-444d-bfb4-c2977e682c44/amber99sb-ildn.ff/spce.itp
+2019-01-21 22:28:24,032 [MainThread  ] [INFO ]  Ignored file 5bca5516-d56f-444d-bfb4-c2977e682c44/amber99sb-ildn.ff/ions.itp
+2019-01-21 22:28:24,037 [MainThread  ] [INFO ]  Adding:
+2019-01-21 22:28:24,038 [MainThread  ] [INFO ]  ['5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.itp', '5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.top']
+2019-01-21 22:28:24,039 [MainThread  ] [INFO ]  to: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:28:29,176 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:28:29,179 [MainThread  ] [INFO ]  Will run a minimization md of 50000 steps
+2019-01-21 22:28:29,185 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:28:29,185 [MainThread  ] [INFO ]  to:
+2019-01-21 22:28:29,186 [MainThread  ] [INFO ]  ['1e8a6a8c-7346-4af9-8025-c77f144e2277/p2g.itp', '1e8a6a8c-7346-4af9-8025-c77f144e2277/p2g.top']
+2019-01-21 22:28:29,187 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:28:29,188 [MainThread  ] [INFO ]  1aki_genion_top.zip
+2019-01-21 22:28:29,189 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:28:29,190 [MainThread  ] [INFO ]  1e8a6a8c-7346-4af9-8025-c77f144e2277/p2g.itp
+2019-01-21 22:28:29,191 [MainThread  ] [INFO ]  1e8a6a8c-7346-4af9-8025-c77f144e2277/p2g.top
+2019-01-21 22:28:29,455 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_genion.gro -r 1aki_genion.gro -p 1e8a6a8c-7346-4af9-8025-c77f144e2277/p2g.top -o 1aki_gppmin.tpr -maxwarn 10
+
+2019-01-21 22:28:29,456 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:28:29,457 [MainThread  ] [INFO ]  Analysing residue names:
+There are:   129    Protein residues
+There are: 10615      Water residues
+There are:    28        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.117 0.117 0.117
+This run will generate roughly 3 Mb of data
+
+2019-01-21 22:28:31,864 [MainThread  ] [INFO ]  GROMACS Mdrun 20181 version detected
+2019-01-21 22:29:15,778 [MainThread  ] [INFO ]  gmx mdrun -s 1aki_gppmin.tpr -o 1aki_min.trr -c 1aki_min.gro -e 1aki_min.edr -g 1aki_min.log -nt 0
+
+2019-01-21 22:29:15,780 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:29:38,613 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:29:38,616 [MainThread  ] [INFO ]  Will run a nvt md of 5000 steps
+2019-01-21 22:29:38,621 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:29:38,623 [MainThread  ] [INFO ]  to:
+2019-01-21 22:29:38,623 [MainThread  ] [INFO ]  ['fef95ebf-dad8-4bf9-81f5-41d5f8f9342e/p2g.itp', 'fef95ebf-dad8-4bf9-81f5-41d5f8f9342e/p2g.top']
+2019-01-21 22:29:38,624 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:29:38,625 [MainThread  ] [INFO ]  1aki_genion_top.zip
+2019-01-21 22:29:38,626 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:29:38,627 [MainThread  ] [INFO ]  fef95ebf-dad8-4bf9-81f5-41d5f8f9342e/p2g.itp
+2019-01-21 22:29:38,628 [MainThread  ] [INFO ]  fef95ebf-dad8-4bf9-81f5-41d5f8f9342e/p2g.top
+2019-01-21 22:29:39,022 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_min.gro -r 1aki_min.gro -p fef95ebf-dad8-4bf9-81f5-41d5f8f9342e/p2g.top -o 1aki_gppnvt.tpr -maxwarn 10
+
+2019-01-21 22:29:39,023 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:29:39,024 [MainThread  ] [INFO ]  turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+Analysing residue names:
+There are:   129    Protein residues
+There are: 10615      Water residues
+There are:    28        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.117 0.117 0.117
+This run will generate roughly 12 Mb of data
+
+2019-01-21 22:29:41,838 [MainThread  ] [INFO ]  GROMACS Mdrun 20181 version detected
+2019-01-21 22:30:25,884 [MainThread  ] [INFO ]  gmx mdrun -s 1aki_gppnvt.tpr -o 1aki_nvt.trr -c 1aki_nvt.gro -e 1aki_nvt.edr -g 1aki_nvt.log -nt 0 -cpo 1aki_nvt.cpt
+
+2019-01-21 22:30:25,885 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:30:30,844 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:30:30,847 [MainThread  ] [INFO ]  Will run a npt md of 5000 steps
+2019-01-21 22:30:30,853 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:30:30,853 [MainThread  ] [INFO ]  to:
+2019-01-21 22:30:30,855 [MainThread  ] [INFO ]  ['16639d0a-6377-4a92-9912-5f5419bba387/p2g.itp', '16639d0a-6377-4a92-9912-5f5419bba387/p2g.top']
+2019-01-21 22:30:30,855 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:30:30,856 [MainThread  ] [INFO ]  1aki_genion_top.zip
+2019-01-21 22:30:30,857 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:30:30,858 [MainThread  ] [INFO ]  16639d0a-6377-4a92-9912-5f5419bba387/p2g.itp
+2019-01-21 22:30:30,859 [MainThread  ] [INFO ]  16639d0a-6377-4a92-9912-5f5419bba387/p2g.top
+2019-01-21 22:30:31,294 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_nvt.gro -r 1aki_nvt.gro -p 16639d0a-6377-4a92-9912-5f5419bba387/p2g.top -o 1aki_gppnpt.tpr -maxwarn 10 -t 1aki_nvt.cpt
+
+2019-01-21 22:30:31,296 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:30:31,298 [MainThread  ] [INFO ]  turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+Analysing residue names:
+There are:   129    Protein residues
+There are: 10615      Water residues
+There are:    28        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.117 0.117 0.117
+This run will generate roughly 12 Mb of data
+
+2019-01-21 22:30:33,861 [MainThread  ] [INFO ]  GROMACS Mdrun 20181 version detected
+2019-01-21 22:31:19,404 [MainThread  ] [INFO ]  gmx mdrun -s 1aki_gppnpt.tpr -o 1aki_npt.trr -c 1aki_npt.gro -e 1aki_npt.edr -g 1aki_npt.log -nt 0 -cpo 1aki_npt.cpt
+
+2019-01-21 22:31:19,406 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:31:32,517 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:31:32,519 [MainThread  ] [INFO ]  Will run a minimization md of 5000 steps
+2019-01-21 22:31:32,525 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:31:32,526 [MainThread  ] [INFO ]  to:
+2019-01-21 22:31:32,527 [MainThread  ] [INFO ]  ['452e88ed-5123-48e4-9120-fc2cbe42751d/p2g.itp', '452e88ed-5123-48e4-9120-fc2cbe42751d/p2g.top']
+2019-01-21 22:31:32,527 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:31:32,528 [MainThread  ] [INFO ]  1aki_genion_top.zip
+2019-01-21 22:31:32,530 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:31:32,531 [MainThread  ] [INFO ]  452e88ed-5123-48e4-9120-fc2cbe42751d/p2g.itp
+2019-01-21 22:31:32,532 [MainThread  ] [INFO ]  452e88ed-5123-48e4-9120-fc2cbe42751d/p2g.top
+2019-01-21 22:31:32,847 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p 452e88ed-5123-48e4-9120-fc2cbe42751d/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
+
+2019-01-21 22:31:32,849 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:31:32,850 [MainThread  ] [INFO ]  Analysing residue names:
+There are:   129    Protein residues
+There are: 10615      Water residues
+There are:    28        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.116 0.116 0.116
+This run will generate roughly 3 Mb of data
+
+2019-01-21 22:31:47,891 [MainThread  ] [INFO ]  GROMACS Mdrun 20181 version detected
+2019-01-21 22:31:55,643 [MainThread  ] [INFO ]  gmx mdrun -s 1aki_gppmd.tpr -o 1aki_md.trr -c 1aki_md.gro -e 1aki_md.edr -g 1aki_md.log -nt 0 -cpo 1aki_md.cpt
+
+2019-01-21 22:31:55,645 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:33:25,387 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:33:25,390 [MainThread  ] [INFO ]  Will run a minimization md of 5000 steps
+2019-01-21 22:33:25,396 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:33:25,396 [MainThread  ] [INFO ]  to:
+2019-01-21 22:33:25,398 [MainThread  ] [INFO ]  ['0249bea6-d296-4801-83bd-9a8b9eab0bc9/p2g.itp', '0249bea6-d296-4801-83bd-9a8b9eab0bc9/p2g.top']
+2019-01-21 22:33:25,399 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:33:25,400 [MainThread  ] [INFO ]  1aki_genion_top.zip
+2019-01-21 22:33:25,401 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:33:25,402 [MainThread  ] [INFO ]  0249bea6-d296-4801-83bd-9a8b9eab0bc9/p2g.itp
+2019-01-21 22:33:25,402 [MainThread  ] [INFO ]  0249bea6-d296-4801-83bd-9a8b9eab0bc9/p2g.top
+2019-01-21 22:33:25,717 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p 0249bea6-d296-4801-83bd-9a8b9eab0bc9/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
+
+2019-01-21 22:33:25,719 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:33:25,720 [MainThread  ] [INFO ]  Analysing residue names:
+There are:   129    Protein residues
+There are: 10615      Water residues
+There are:    28        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.116 0.116 0.116
+This run will generate roughly 3 Mb of data
+
+2019-01-21 22:33:27,706 [MainThread  ] [INFO ]  GROMACS Mdrun 20181 version detected
+2019-01-21 22:33:35,601 [MainThread  ] [INFO ]  gmx mdrun -s 1aki_gppmd.tpr -o 1aki_md.trr -c 1aki_md.gro -e 1aki_md.edr -g 1aki_md.log -nt 0 -cpo 1aki_md.cpt
+
+2019-01-21 22:33:35,603 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:34:31,923 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:34:31,926 [MainThread  ] [INFO ]  Will run a minimization md of 5000 steps
+2019-01-21 22:34:31,932 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:34:31,933 [MainThread  ] [INFO ]  to:
+2019-01-21 22:34:31,934 [MainThread  ] [INFO ]  ['a8b948c4-3175-48fa-9649-6b416f2e5820/p2g.itp', 'a8b948c4-3175-48fa-9649-6b416f2e5820/p2g.top']
+2019-01-21 22:34:31,934 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:34:31,935 [MainThread  ] [INFO ]  1aki_genion_top.zip
+2019-01-21 22:34:31,937 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:34:31,938 [MainThread  ] [INFO ]  a8b948c4-3175-48fa-9649-6b416f2e5820/p2g.itp
+2019-01-21 22:34:31,939 [MainThread  ] [INFO ]  a8b948c4-3175-48fa-9649-6b416f2e5820/p2g.top
+2019-01-21 22:34:32,260 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p a8b948c4-3175-48fa-9649-6b416f2e5820/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
+
+2019-01-21 22:34:32,262 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:34:32,263 [MainThread  ] [INFO ]  Analysing residue names:
+There are:   129    Protein residues
+There are: 10615      Water residues
+There are:    28        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.116 0.116 0.116
+This run will generate roughly 3 Mb of data
+
+2019-01-21 22:35:01,663 [MainThread  ] [INFO ]  GROMACS Grompp 20181 version detected
+2019-01-21 22:35:01,666 [MainThread  ] [INFO ]  Will run a free md of 30.0 pico seconds
+2019-01-21 22:35:01,671 [MainThread  ] [INFO ]  Extracting: /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks/1aki_genion_top.zip
+2019-01-21 22:35:01,672 [MainThread  ] [INFO ]  to:
+2019-01-21 22:35:01,673 [MainThread  ] [INFO ]  ['8448a39c-a4bd-4233-b74d-90e8a0e1c1d9/p2g.itp', '8448a39c-a4bd-4233-b74d-90e8a0e1c1d9/p2g.top']
+2019-01-21 22:35:01,674 [MainThread  ] [INFO ]  Unzipping: 
+2019-01-21 22:35:01,675 [MainThread  ] [INFO ]  1aki_genion_top.zip
+2019-01-21 22:35:01,676 [MainThread  ] [INFO ]  To: 
+2019-01-21 22:35:01,677 [MainThread  ] [INFO ]  8448a39c-a4bd-4233-b74d-90e8a0e1c1d9/p2g.itp
+2019-01-21 22:35:01,678 [MainThread  ] [INFO ]  8448a39c-a4bd-4233-b74d-90e8a0e1c1d9/p2g.top
+2019-01-21 22:35:02,020 [MainThread  ] [INFO ]  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p 8448a39c-a4bd-4233-b74d-90e8a0e1c1d9/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
+
+2019-01-21 22:35:02,022 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:35:02,023 [MainThread  ] [INFO ]  turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+Analysing residue names:
+There are:   129    Protein residues
+There are: 10615      Water residues
+There are:    28        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x60x60, spacing 0.116 0.116 0.116
+This run will generate roughly 8 Mb of data
+
+2019-01-21 22:35:14,776 [MainThread  ] [INFO ]  GROMACS Mdrun 20181 version detected
+2019-01-21 22:37:31,745 [MainThread  ] [INFO ]  gmx mdrun -s 1aki_gppmd.tpr -o 1aki_md.trr -c 1aki_md.gro -e 1aki_md.edr -g 1aki_md.log -nt 0 -cpo 1aki_md.cpt
+
+2019-01-21 22:37:31,747 [MainThread  ] [INFO ]  Exit code 0
+

@@ -1,0 +1,62 @@
+2019-01-21 22:28:31,862 [MainThread  ] [INFO ]  gmx -version
+
+2019-01-21 22:28:31,863 [MainThread  ] [INFO ]  Exit code 0
+
+2019-01-21 22:28:31,863 [MainThread  ] [INFO ]                           :-) GROMACS - gmx, 2018.1 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx, version 2018.1
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
+Command line:
+  gmx -version
+
+GROMACS version:    2018.1
+Precision:          single
+Memory model:       64 bit
+MPI library:        thread_mpi
+OpenMP support:     disabled
+GPU support:        disabled
+SIMD instructions:  AVX2_256
+FFT library:        fftw-3.3.5-sse2
+RDTSCP usage:       enabled
+TNG support:        enabled
+Hwloc support:      disabled
+Tracing support:    disabled
+Built on:           2018-05-28 14:03:59
+Built by:           pau@Paus-MacBook-Pro.local [CMAKE]
+Build OS/arch:      Darwin 17.5.0 x86_64
+Build CPU vendor:   Intel
+Build CPU brand:    Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+Build CPU family:   6   Model: 158   Stepping: 9
+Build CPU features: aes apic avx avx2 clfsh cmov cx8 cx16 f16c fma htt intel lahf mmx msr nonstop_tsc pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp sse2 sse3 sse4.1 sse4.2 ssse3 tdt x2apic
+C compiler:         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc AppleClang 9.1.0.9020039
+C compiler flags:    -march=core-avx2    -Wno-unknown-pragmas  -O3 -DNDEBUG  
+C++ compiler:       /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ AppleClang 9.1.0.9020039
+C++ compiler flags:  -march=core-avx2    -std=c++11  -Wno-unknown-pragmas  -O3 -DNDEBUG  
+
+
