@@ -1,1115 +1,0 @@
-2019-01-21 22:27:56,894 [MainThread  ] [INFO ]                       :-) GROMACS - gmx pdb2gmx, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx pdb2gmx, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx pdb2gmx -f 1aki_mutated.pdb -o 1aki_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i p2g.itp
-
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.r2b
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.r2b
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.r2b
-All occupancies are one
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/atomtypes.atp
-Atomtype 1Atomtype 2Atomtype 3Atomtype 4Atomtype 5Atomtype 6Atomtype 7Atomtype 8Atomtype 9Atomtype 10Atomtype 11Atomtype 12Atomtype 13Atomtype 14Atomtype 15Atomtype 16Atomtype 17Atomtype 18Atomtype 19Atomtype 20Atomtype 21Atomtype 22Atomtype 23Atomtype 24Atomtype 25Atomtype 26Atomtype 27Atomtype 28Atomtype 29Atomtype 30Atomtype 31Atomtype 32Atomtype 33Atomtype 34Atomtype 35Atomtype 36Atomtype 37Atomtype 38Atomtype 39Atomtype 40Atomtype 41Atomtype 42Atomtype 43Atomtype 44Atomtype 45Atomtype 46Atomtype 47Atomtype 48Atomtype 49Atomtype 50Atomtype 51Atomtype 52Atomtype 53Atomtype 54Atomtype 55Atomtype 56Atomtype 57Atomtype 58Atomtype 59Atomtype 60Atomtype 61Atomtype 62Atomtype 63Atomtype 64Atomtype 65Atomtype 66Atomtype 67
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.rtp
-Residue 1Residue 2Residue 3Residue 4Residue 5Residue 6Residue 7Residue 8Residue 9Residue 10Residue 11Residue 12Residue 13Residue 14Residue 15Residue 16Residue 17Residue 18Residue 19Residue 20Residue 21Residue 22Residue 23Residue 24Residue 25Residue 26Residue 27Residue 28Residue 29Residue 30Residue 31Residue 32Residue 33Residue 34Residue 35Residue 36Residue 37Residue 38Residue 39Residue 40Residue 41Residue 42Residue 43Residue 44Residue 45Residue 46Residue 47Residue 48Residue 49Residue 50Residue 51Residue 52Residue 53Residue 54Residue 55Residue 56Residue 57Residue 58Residue 59Residue 60Residue 61Residue 62Residue 63Residue 64Residue 65Residue 66Residue 67Residue 68Residue 69Residue 70Residue 71Residue 72Residue 73Residue 74Residue 75Residue 76Residue 77Residue 78Residue 79Residue 80Residue 81Residue 82Residue 83Residue 84Residue 85Residue 86Residue 87Residue 88Residue 89Residue 90Residue 91Residue 92Residue 93
-Sorting it all out...
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.rtp
-Residue 94Residue 95Residue 96Residue 97Residue 98Residue 99Residue 100Residue 101Residue 102Residue 103Residue 104Residue 105Residue 106Residue 107Residue 108Residue 109
-Sorting it all out...
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.rtp
-Residue 110Residue 111Residue 112Residue 113Residue 114Residue 115Residue 116Residue 117Residue 118Residue 119Residue 120Residue 121Residue 122Residue 123Residue 124Residue 125
-Sorting it all out...
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.hdb
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.hdb
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.hdb
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.n.tdb
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.c.tdb
-
-Back Off! I just backed up p2g.top to ./#p2g.top.1#
-Analysing hydrogen-bonding network for automated assignment of histidine
- protonation. 214 donors and 185 acceptors were found.
-There are 255 hydrogen bonds
-Will use HISE for residue 15
-8 out of 8 lines of specbond.dat converted successfully
-Special Atom Distance matrix:
-                    CYS6   MET12   HIS15   CYS30   CYS64   CYS76   CYS80
-                    SG53    SD92  NE2123   SG243   SG518   SG606   SG635
-   MET12    SD92   1.166
-   HIS15  NE2123   1.776   1.019
-   CYS30   SG243   1.406   1.054   2.069
-   CYS64   SG518   2.835   1.794   1.789   2.241
-   CYS76   SG606   2.704   1.551   1.468   2.116   0.765
-   CYS80   SG635   2.959   1.951   1.916   2.391   0.199   0.944
-   CYS94   SG729   2.550   1.407   1.382   1.975   0.665   0.202   0.855
-  MET105   SD804   1.827   0.911   1.683   0.888   1.849   1.461   2.036
-  CYS115   SG894   1.576   1.084   2.078   0.200   2.111   1.989   2.262
-  CYS127   SG986   0.197   1.072   1.721   1.313   2.799   2.622   2.934
-                   CYS94  MET105  CYS115
-                   SG729   SD804   SG894
-  MET105   SD804   1.381
-  CYS115   SG894   1.853   0.790
-  CYS127   SG986   2.475   1.686   1.483
-Linking CYS-6 SG-53 and CYS-127 SG-986...
-Linking CYS-30 SG-243 and CYS-115 SG-894...
-Linking CYS-64 SG-518 and CYS-80 SG-635...
-Linking CYS-76 SG-606 and CYS-94 SG-729...
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.arn
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.arn
-Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.arn
-Making bonds...
-Number of bonds was 1991, now 1990
-Generating angles, dihedrals and pairs...
-Before cleaning: 5156 pairs
-Before cleaning: 5468 dihedrals
-Keeping all generated dihedrals
-Making cmap torsions...
-There are 5468 dihedrals,  432 impropers, 3554 angles
-          5117 pairs,     1990 bonds and     0 virtual sites
-Total mass 14377.372 a.m.u.
-Total charge 8.000 e
-Writing topology
-
-Back Off! I just backed up p2g.itp to ./#p2g.itp.1#
-
-Writing coordinate file...
-
-Back Off! I just backed up 1aki_pdb2gmx.gro to ./#1aki_pdb2gmx.gro.1#
-
-GROMACS reminds you: "Two guys can move very fast when they're motivated enough and unemployed" (Eric Betzig)
-
-
-2019-01-21 22:28:00,323 [MainThread  ] [INFO ]                       :-) GROMACS - gmx editconf, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx editconf, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx editconf -f 1aki_pdb2gmx.gro -o 1aki_editconf.gro -d 1.0 -bt cubic -c
-
-
-Back Off! I just backed up 1aki_editconf.gro to ./#1aki_editconf.gro.1#
-
-GROMACS reminds you: "Screw a Lightbulb in your Head" (Gogol Bordello)
-
-
-2019-01-21 22:28:02,376 [MainThread  ] [INFO ]                       :-) GROMACS - gmx solvate, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx solvate, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx solvate -cp 1aki_editconf.gro -cs spc216.gro -o 1aki_solvate.gro -p 9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.top
-
-Reading solute configuration
-Gyas ROwers Mature At Cryogenic Speed
-Containing 1965 atoms in 129 residues
-Reading solvent configuration
-216H2O,WATJP01,SPC216,SPC-MODEL,300K,BOX(M)=1.86206NM,WFVG,MAR. 1984
-Containing 648 atoms in 216 residues
-
-Initialising inter-atomic distances...
-Generating solvent configuration
-Will generate new solvent configuration of 4x4x4 boxes
-Solvent box contains 39252 atoms in 13084 residues
-Removed 5451 solvent atoms due to solvent-solvent overlap
-Removed 1872 solvent atoms due to solute-solvent overlap
-Sorting configuration
-Found 1 molecule type:
-    SOL (   3 atoms): 10643 residues
-Generated solvent containing 31929 atoms in 10643 residues
-Writing generated configuration to 1aki_solvate.gro
-
-Output configuration contains 33894 atoms in 10772 residues
-Volume                 :     344.484 (nm^3)
-Density                :     998.156 (g/l)
-Number of SOL molecules:  10643   
-
-Processing topology
-
-Back Off! I just backed up 9dabab49-f15e-4e6d-a825-70bcc7756e39/p2g.top to 9dabab49-f15e-4e6d-a825-70bcc7756e39/#p2g.top.1#
-
-GROMACS reminds you: "If your experiment needs a statistician, you need a better experiment." (Ernest Rutherford)
-
-
-2019-01-21 22:28:17,002 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_solvate.gro -r 1aki_solvate.gro -p 45e2fdac-cd54-46e9-889d-71f2add4a710/p2g.top -o 1aki_gppion.tpr -maxwarn 10
-
-Setting the LD random seed to 762028451
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-NOTE 1 [file p2g.top, line 18725]:
-  System has non-zero total charge: 8.000000
-  Total charge should normally be an integer. See
-  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
-  for discussion on how close it should be to an integer.
-  
-
-
-
-WARNING 1 [file p2g.top, line 18725]:
-  You are using Ewald electrostatics in a system with net charge. This can
-  lead to severe artifacts, such as ions moving into regions with low
-  dielectric, due to the uniform background charge. We suggest to
-  neutralize your system with counter ions, possibly in combination with a
-  physiological salt concentration.
-
-Removing all charge groups because cutoff-scheme=Verlet
-Number of degrees of freedom in T-Coupling group rest is 69750.00
-Estimate for the relative computational load of the PME mesh part: 0.24
-
-There was 1 note
-
-There was 1 warning
-
-GROMACS reminds you: "Is it the invisible chemistry stuff?" (Frida Hyvonen)
-
-
-2019-01-21 22:28:24,015 [MainThread  ] [INFO ]                        :-) GROMACS - gmx genion, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx genion, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx genion -s 1aki_gppion.tpr -o 1aki_genion.gro -p 5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.top -neutral -conc 0.05 -seed 1993
-
-Reading file 1aki_gppion.tpr, VERSION 2018.1 (single precision)
-Reading file 1aki_gppion.tpr, VERSION 2018.1 (single precision)
-Group     0 (         System) has 33894 elements
-Group     1 (        Protein) has  1965 elements
-Group     2 (      Protein-H) has  1006 elements
-Group     3 (        C-alpha) has   129 elements
-Group     4 (       Backbone) has   387 elements
-Group     5 (      MainChain) has   517 elements
-Group     6 (   MainChain+Cb) has   634 elements
-Group     7 (    MainChain+H) has   646 elements
-Group     8 (      SideChain) has  1319 elements
-Group     9 (    SideChain-H) has   489 elements
-Group    10 (    Prot-Masses) has  1965 elements
-Group    11 (    non-Protein) has 31929 elements
-Group    12 (          Water) has 31929 elements
-Group    13 (            SOL) has 31929 elements
-Group    14 (      non-Water) has  1965 elements
-Select a group: Number of (3-atomic) solvent molecules: 10643
-
-Back Off! I just backed up 5bca5516-d56f-444d-bfb4-c2977e682c44/p2g.top to 5bca5516-d56f-444d-bfb4-c2977e682c44/#p2g.top.1#
-Using random seed 1993.
-Replacing solvent molecule 6684 (atom 22017) with NA
-Replacing solvent molecule 3713 (atom 13104) with NA
-Replacing solvent molecule 6865 (atom 22560) with NA
-Replacing solvent molecule 6607 (atom 21786) with NA
-Replacing solvent molecule 2054 (atom 8127) with NA
-Replacing solvent molecule 3610 (atom 12795) with NA
-Replacing solvent molecule 2213 (atom 8604) with NA
-Replacing solvent molecule 2304 (atom 8877) with NA
-Replacing solvent molecule 1640 (atom 6885) with NA
-Replacing solvent molecule 2994 (atom 10947) with NA
-Replacing solvent molecule 905 (atom 4680) with CL
-Replacing solvent molecule 9779 (atom 31302) with CL
-Replacing solvent molecule 9064 (atom 29157) with CL
-Replacing solvent molecule 4558 (atom 15639) with CL
-Replacing solvent molecule 1900 (atom 7665) with CL
-Replacing solvent molecule 7505 (atom 24480) with CL
-Replacing solvent molecule 9184 (atom 29517) with CL
-Replacing solvent molecule 5771 (atom 19278) with CL
-Replacing solvent molecule 6751 (atom 22218) with CL
-Replacing solvent molecule 2902 (atom 10671) with CL
-Replacing solvent molecule 2024 (atom 8037) with CL
-Replacing solvent molecule 10621 (atom 33828) with CL
-Replacing solvent molecule 909 (atom 4692) with CL
-Replacing solvent molecule 10104 (atom 32277) with CL
-Replacing solvent molecule 3869 (atom 13572) with CL
-Replacing solvent molecule 4530 (atom 15555) with CL
-Replacing solvent molecule 5862 (atom 19551) with CL
-Replacing solvent molecule 8200 (atom 26565) with CL
-
-
-GROMACS reminds you: "In a Deep Deep Well" (Nick Cave)
-
-
-2019-01-21 22:28:29,459 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_genion.gro -r 1aki_genion.gro -p 1e8a6a8c-7346-4af9-8025-c77f144e2277/p2g.top -o 1aki_gppmin.tpr -maxwarn 10
-
-Setting the LD random seed to -1775379700
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-Excluding 1 bonded neighbours molecule type 'NA'
-Excluding 1 bonded neighbours molecule type 'CL'
-Removing all charge groups because cutoff-scheme=Verlet
-Number of degrees of freedom in T-Coupling group rest is 69666.00
-Estimate for the relative computational load of the PME mesh part: 0.24
-
-GROMACS reminds you: "Shake Yourself" (YES)
-
-
-2019-01-21 22:29:15,781 [MainThread  ] [INFO ]                        :-) GROMACS - gmx mdrun, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx mdrun, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx mdrun -s 1aki_gppmin.tpr -o 1aki_min.trr -c 1aki_min.gro -e 1aki_min.edr -g 1aki_min.log -nt 0
-
-Reading file 1aki_gppmin.tpr, VERSION 2018.1 (single precision)
-
-NOTE: disabling dynamic load balancing as it is only supported with dynamics, not with integrator 'steep'.
-
-Using 8 MPI threads
-
-Steepest Descents:
-   Tolerance (Fmax)   =  5.00000e+02
-   Number of steps    =        50000
-
-writing lowest energy coordinates.
-
-Steepest Descents converged to Fmax < 500 in 2014 steps
-Potential Energy  = -5.9998656e+05
-Maximum force     =  4.9169073e+02 on atom 1963
-Norm of force     =  1.1966786e+01
-
-GROMACS reminds you: "Sitting on a rooftop watching molecules collide" (A Camp)
-
-
-2019-01-21 22:29:39,024 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_min.gro -r 1aki_min.gro -p fef95ebf-dad8-4bf9-81f5-41d5f8f9342e/p2g.top -o 1aki_gppnvt.tpr -maxwarn 10
-
-Setting the LD random seed to -2042155488
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-Excluding 1 bonded neighbours molecule type 'NA'
-Excluding 1 bonded neighbours molecule type 'CL'
-Setting gen_seed to -1261140266
-Velocities were taken from a Maxwell distribution at 300 K
-Removing all charge groups because cutoff-scheme=Verlet
-Number of degrees of freedom in T-Coupling group Protein is 3904.83
-Number of degrees of freedom in T-Coupling group non-Protein is 63771.17
-Estimate for the relative computational load of the PME mesh part: 0.26
-
-GROMACS reminds you: "Though the path of the comet is sure, it's constitution is not" (Peter Hammill)
-
-
-2019-01-21 22:30:25,886 [MainThread  ] [INFO ]                        :-) GROMACS - gmx mdrun, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx mdrun, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx mdrun -s 1aki_gppnvt.tpr -o 1aki_nvt.trr -c 1aki_nvt.gro -e 1aki_nvt.edr -g 1aki_nvt.log -nt 0 -cpo 1aki_nvt.cpt
-
-Reading file 1aki_gppnvt.tpr, VERSION 2018.1 (single precision)
-Changing nstlist from 10 to 50, rlist from 1 to 1.115
-
-Using 8 MPI threads
-starting mdrun 'Protein in water'
-5000 steps,     10.0 ps.
-
-step 100 Turning on dynamic load balancing, because the performance loss due to load imbalance is 3.4 %.
-
-
-step 2000 Turning off dynamic load balancing, because it is degrading performance.
-
-
-Writing final coordinates.
-
- Dynamic load balancing report:
- DLB was off during the run due to low measured imbalance.
- Average load imbalance: 3.1%.
- The balanceable part of the MD step is 63%, load imbalance is computed from this.
- Part of the total run time spent waiting due to load imbalance: 2.0%.
-
-
-               Core t (s)   Wall t (s)        (%)
-       Time:      337.994       42.249      800.0
-                 (ns/day)    (hour/ns)
-Performance:       20.454        1.173
-
-GROMACS reminds you: "Bring Out the Gimp" (Pulp Fiction)
-
-
-2019-01-21 22:30:31,299 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_nvt.gro -r 1aki_nvt.gro -p 16639d0a-6377-4a92-9912-5f5419bba387/p2g.top -o 1aki_gppnpt.tpr -maxwarn 10 -t 1aki_nvt.cpt
-
-Setting the LD random seed to -402468351
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-Excluding 1 bonded neighbours molecule type 'NA'
-Excluding 1 bonded neighbours molecule type 'CL'
-Removing all charge groups because cutoff-scheme=Verlet
-
-NOTE 1 [file p2g.top, line 18727]:
-  You are combining position restraints with Parrinello-Rahman pressure
-  coupling, which can lead to instabilities. If you really want to combine
-  position restraints with pressure coupling, we suggest to use Berendsen
-  pressure coupling instead.
-
-The center of mass of the position restraint coord's is  3.487  3.520  3.501
-The center of mass of the position restraint coord's is  3.487  3.520  3.501
-Number of degrees of freedom in T-Coupling group Protein is 3904.83
-Number of degrees of freedom in T-Coupling group non-Protein is 63771.17
-Reading Coordinates, Velocities and Box size from old trajectory
-Will read whole trajectory
-Last frame         -1 time   10.000   
-Using frame at t = 10 ps
-Starting time for run is 0 ps
-Estimate for the relative computational load of the PME mesh part: 0.26
-
-There was 1 note
-
-GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
-
-
-2019-01-21 22:31:19,407 [MainThread  ] [INFO ]                        :-) GROMACS - gmx mdrun, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx mdrun, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx mdrun -s 1aki_gppnpt.tpr -o 1aki_npt.trr -c 1aki_npt.gro -e 1aki_npt.edr -g 1aki_npt.log -nt 0 -cpo 1aki_npt.cpt
-
-Reading file 1aki_gppnpt.tpr, VERSION 2018.1 (single precision)
-Changing nstlist from 10 to 50, rlist from 1 to 1.115
-
-Using 8 MPI threads
-
-Back Off! I just backed up traj_comp.xtc to ./#traj_comp.xtc.1#
-starting mdrun 'Protein in water'
-5000 steps,     10.0 ps.
-
-step 150 Turning on dynamic load balancing, because the performance loss due to load imbalance is 3.9 %.
-
-
-step 2000 Turning off dynamic load balancing, because it is degrading performance.
-
-
-Writing final coordinates.
-
- Dynamic load balancing report:
- DLB was off during the run due to low measured imbalance.
- Average load imbalance: 3.1%.
- The balanceable part of the MD step is 62%, load imbalance is computed from this.
- Part of the total run time spent waiting due to load imbalance: 1.9%.
-
-
-               Core t (s)   Wall t (s)        (%)
-       Time:      349.988       43.748      800.0
-                 (ns/day)    (hour/ns)
-Performance:       19.753        1.215
-
-GROMACS reminds you: "Been There, Done It" (Beavis and Butthead)
-
-
-2019-01-21 22:31:32,851 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p 452e88ed-5123-48e4-9120-fc2cbe42751d/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
-
-Setting the LD random seed to -1865777773
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-Excluding 1 bonded neighbours molecule type 'NA'
-Excluding 1 bonded neighbours molecule type 'CL'
-Removing all charge groups because cutoff-scheme=Verlet
-Number of degrees of freedom in T-Coupling group rest is 69666.00
-Reading Coordinates and Box size from old trajectory
-Will read whole trajectory
-Last frame         -1 time   10.000   
-Using frame at t = 10 ps
-Starting time for run is 0 ps
-Estimate for the relative computational load of the PME mesh part: 0.23
-
-GROMACS reminds you: "Bring Out the Gimp" (Pulp Fiction)
-
-
-2019-01-21 22:31:55,646 [MainThread  ] [INFO ]                        :-) GROMACS - gmx mdrun, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx mdrun, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx mdrun -s 1aki_gppmd.tpr -o 1aki_md.trr -c 1aki_md.gro -e 1aki_md.edr -g 1aki_md.log -nt 0 -cpo 1aki_md.cpt
-
-Reading file 1aki_gppmd.tpr, VERSION 2018.1 (single precision)
-
-NOTE: disabling dynamic load balancing as it is only supported with dynamics, not with integrator 'steep'.
-
-Using 8 MPI threads
-
-Steepest Descents:
-   Tolerance (Fmax)   =  1.00000e+03
-   Number of steps    =         5000
-
-writing lowest energy coordinates.
-
-Steepest Descents converged to Fmax < 1000 in 365 steps
-Potential Energy  = -6.0575438e+05
-Maximum force     =  8.4062732e+02 on atom 1520
-Norm of force     =  2.7159769e+01
-
-GROMACS reminds you: "Ich Bin Ein Berliner" (J.F. Kennedy)
-
-
-2019-01-21 22:33:25,721 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p 0249bea6-d296-4801-83bd-9a8b9eab0bc9/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
-
-Setting the LD random seed to 390652062
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-Excluding 1 bonded neighbours molecule type 'NA'
-Excluding 1 bonded neighbours molecule type 'CL'
-Removing all charge groups because cutoff-scheme=Verlet
-Number of degrees of freedom in T-Coupling group rest is 69666.00
-Reading Coordinates and Box size from old trajectory
-Will read whole trajectory
-Last frame         -1 time   10.000   
-Using frame at t = 10 ps
-Starting time for run is 0 ps
-Estimate for the relative computational load of the PME mesh part: 0.23
-
-Back Off! I just backed up 1aki_gppmd.tpr to ./#1aki_gppmd.tpr.1#
-
-GROMACS reminds you: "The future still looks good, and you've got time to rectify all the things that you should" (G. Harrison)
-
-
-2019-01-21 22:33:35,604 [MainThread  ] [INFO ]                        :-) GROMACS - gmx mdrun, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx mdrun, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx mdrun -s 1aki_gppmd.tpr -o 1aki_md.trr -c 1aki_md.gro -e 1aki_md.edr -g 1aki_md.log -nt 0 -cpo 1aki_md.cpt
-
-
-Back Off! I just backed up 1aki_md.log to ./#1aki_md.log.1#
-Reading file 1aki_gppmd.tpr, VERSION 2018.1 (single precision)
-
-NOTE: disabling dynamic load balancing as it is only supported with dynamics, not with integrator 'steep'.
-
-Using 8 MPI threads
-
-Back Off! I just backed up 1aki_md.trr to ./#1aki_md.trr.1#
-
-Back Off! I just backed up 1aki_md.edr to ./#1aki_md.edr.1#
-
-Steepest Descents:
-   Tolerance (Fmax)   =  1.00000e+03
-   Number of steps    =         5000
-
-writing lowest energy coordinates.
-
-Back Off! I just backed up 1aki_md.gro to ./#1aki_md.gro.1#
-
-Steepest Descents converged to Fmax < 1000 in 365 steps
-Potential Energy  = -6.0575438e+05
-Maximum force     =  8.4062732e+02 on atom 1520
-Norm of force     =  2.7159769e+01
-
-GROMACS reminds you: "Microsecond Here I Come" (P.J. Van Maaren)
-
-
-2019-01-21 22:34:32,265 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p a8b948c4-3175-48fa-9649-6b416f2e5820/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
-
-Setting the LD random seed to 209786526
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-Excluding 1 bonded neighbours molecule type 'NA'
-Excluding 1 bonded neighbours molecule type 'CL'
-Removing all charge groups because cutoff-scheme=Verlet
-Number of degrees of freedom in T-Coupling group rest is 69666.00
-Reading Coordinates and Box size from old trajectory
-Will read whole trajectory
-Last frame         -1 time   10.000   
-Using frame at t = 10 ps
-Starting time for run is 0 ps
-Estimate for the relative computational load of the PME mesh part: 0.23
-
-Back Off! I just backed up 1aki_gppmd.tpr to ./#1aki_gppmd.tpr.2#
-
-GROMACS reminds you: "She Needs Cash to Buy Aspirine For Her Pain" (LIVE)
-
-
-2019-01-21 22:35:02,024 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx grompp, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx grompp -f grompp.mdp -c 1aki_npt.gro -r 1aki_npt.gro -p 8448a39c-a4bd-4233-b74d-90e8a0e1c1d9/p2g.top -o 1aki_gppmd.tpr -maxwarn 10 -t 1aki_npt.cpt
-
-Setting the LD random seed to 1683594636
-Generated 2211 of the 2211 non-bonded parameter combinations
-Generating 1-4 interactions: fudge = 0.5
-Generated 2211 of the 2211 1-4 parameter combinations
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-Excluding 2 bonded neighbours molecule type 'SOL'
-Excluding 1 bonded neighbours molecule type 'NA'
-Excluding 1 bonded neighbours molecule type 'CL'
-Removing all charge groups because cutoff-scheme=Verlet
-Number of degrees of freedom in T-Coupling group Protein is 3904.83
-Number of degrees of freedom in T-Coupling group non-Protein is 63771.17
-Reading Coordinates, Velocities and Box size from old trajectory
-Will read whole trajectory
-Last frame         -1 time   10.000   
-Using frame at t = 10 ps
-Starting time for run is 0 ps
-Estimate for the relative computational load of the PME mesh part: 0.26
-
-Back Off! I just backed up 1aki_gppmd.tpr to ./#1aki_gppmd.tpr.3#
-
-GROMACS reminds you: "Out Of Register Space (Ugh)" (Vi)
-
-
-2019-01-21 22:37:31,748 [MainThread  ] [INFO ]                        :-) GROMACS - gmx mdrun, 2018.1 (-:
-
-                            GROMACS is written by:
-     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
-    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
-  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
- Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
-  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
-  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
-    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
-   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
- Christian Wennberg    Maarten Wolf   
-                           and the project leaders:
-        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
-
-Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2017, The GROMACS development team at
-Uppsala University, Stockholm University and
-the Royal Institute of Technology, Sweden.
-check out http://www.gromacs.org for more information.
-
-GROMACS is free software; you can redistribute it and/or modify it
-under the terms of the GNU Lesser General Public License
-as published by the Free Software Foundation; either version 2.1
-of the License, or (at your option) any later version.
-
-GROMACS:      gmx mdrun, version 2018.1
-Executable:   /usr/local/gromacs/bin/gmx
-Data prefix:  /usr/local/gromacs
-Working dir:  /Users/pau/projects/biobb_workflows/biobb_workflows/lysozyme_tutorial/notebooks
-Command line:
-  gmx mdrun -s 1aki_gppmd.tpr -o 1aki_md.trr -c 1aki_md.gro -e 1aki_md.edr -g 1aki_md.log -nt 0 -cpo 1aki_md.cpt
-
-
-Back Off! I just backed up 1aki_md.log to ./#1aki_md.log.2#
-Reading file 1aki_gppmd.tpr, VERSION 2018.1 (single precision)
-Changing nstlist from 10 to 40, rlist from 1 to 1.096
-
-Using 8 MPI threads
-
-Back Off! I just backed up traj_comp.xtc to ./#traj_comp.xtc.2#
-
-Back Off! I just backed up 1aki_md.trr to ./#1aki_md.trr.2#
-
-Back Off! I just backed up 1aki_md.edr to ./#1aki_md.edr.2#
-starting mdrun 'Protein in water'
-15000 steps,     30.0 ps.
-
-step 120 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.4 %.
-
-
-step 1600 Turning off dynamic load balancing, because it is degrading performance.
-
-
-Writing final coordinates.
-
-Back Off! I just backed up 1aki_md.gro to ./#1aki_md.gro.2#
-
- Dynamic load balancing report:
- DLB was off during the run due to low measured imbalance.
- Average load imbalance: 3.1%.
- The balanceable part of the MD step is 62%, load imbalance is computed from this.
- Part of the total run time spent waiting due to load imbalance: 1.9%.
-
-
-               Core t (s)   Wall t (s)        (%)
-       Time:     1082.130      135.266      800.0
-                 (ns/day)    (hour/ns)
-Performance:       19.163        1.252
-
-GROMACS reminds you: "If everything seems under control, you're just not going fast enough." (Mario Andretti)
-
-
