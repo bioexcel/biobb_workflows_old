@@ -53,9 +53,8 @@ Activate the `nglview` extension and start Jupyter Notebook:
 
 ```
 jupyter-nbextension enable nglview --py --sys-prefix
-jupyter notebook
+jupyter notebook biobb_workflows/lysozyme_tutorial/notebooks/Lysozyme.ipynb
 ```
 
 A browser window should appear, or click the link provided. 
 
-Then navigate to open the Jupyter Notebook file `biobb_workflows/lysozyme_tutorial/notebooks/Lysozyme.ipynb` and follow instructions inside.
