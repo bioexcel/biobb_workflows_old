@@ -49,10 +49,13 @@ The [PyOpenCl documentation](https://documen.tician.de/pyopencl/misc.html#using-
 
 ## Start Jupyter Notebook
 
+Activate the `nglview` extension and start Jupyter Notebook:
+
 ```
+jupyter-nbextension enable nglview --py --sys-prefix
 jupyter notebook
 ```
 
 A browser window should appear, or click the link provided. 
 
-Then navigate to open the Jupyter Notebook file `biobb_workflows/lysozyme_tutorial/notebooks/Lysozyme.ipynb`
+Then navigate to open the Jupyter Notebook file `biobb_workflows/lysozyme_tutorial/notebooks/Lysozyme.ipynb` and follow instructions inside.
