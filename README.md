@@ -35,7 +35,7 @@ conda activate biobb
 ```
 
 
-## OpenCL implementations
+### OpenCL implementations
 
 After activating the Conda environment for the first time you may see a warning equivalent to:
 
@@ -46,3 +46,13 @@ WARNING: No ICDs were found. Either,
 ```
 
 The [PyOpenCl documentation](https://documen.tician.de/pyopencl/misc.html#using-vendor-supplied-opencl-drivers-mainly-on-linux) suggests how to proceed. **OS X** users should use `conda install khronos-opencl-icd-loader` which can use GPU hardware installed, while in **Linux** you can either provide a software-based OpenCL implementation with `conda install pocl` or (recommended) use GPU-specific hardware implementation found in `/etc/OpenCL/vendors` (e.g. `apt install nvidia-driver-390`) by creating the symlink as suggested.
+
+## Start Jupyter Notebook
+
+```
+jupyter notebook
+```
+
+A browser window should appear, or click the link provided. 
+
+Then navigate to open the Jupyter Notebook file `biobb_workflows/lysozyme_tutorial/notebooks/Lysozyme.ipynb`
