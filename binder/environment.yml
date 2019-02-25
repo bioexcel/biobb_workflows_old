@@ -8,5 +8,6 @@ dependencies:
   - biobb_model
   - biobb_md
   - nglview
+  - simpletraj
   - conda
   - gromacs

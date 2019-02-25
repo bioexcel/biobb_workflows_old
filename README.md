@@ -23,7 +23,7 @@ conda config --add channels conda-forge
 Make a new _Conda environment_ to keep [our dependencies](binder/environment.yml):
 
 ```
-conda create -n biobb biobb_md biobb_io biobb_model nglview gromacs
+conda create -n biobb biobb_md biobb_io biobb_model nglview simpletraj gromacs
 ```
 
 _Tip: Remove `gromacs` above if you have already installed [GROMACS](http://manual.gromacs.org/documentation/) that you [compiled with hardware accelerations](http://manual.gromacs.org/documentation/2018/install-guide/index.html) like NVidia CUDA._
