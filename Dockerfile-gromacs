@@ -1,7 +1,4 @@
-FROM gromacs/gromacs:2018.4
-#FROM quay.io/biocontainers/gromacs:2018.2--h470a237_0
-
-
+FROM gromacs/gromacs
 
 ## Below is adapted from 
 # jupyter-repo2docker --debug https://github.com/bioexcel/biobb_workflows
