@@ -1,12 +1,26 @@
 # biobb_workflows
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bioexcel/biobb_workflows/master?filepath=biobb_workflows%2Flysozyme_tutorial%2Fnotebooks%2FLysozyme.ipynb)
-
-
+[![bioexcel/biobb_workflows](https://images.microbadger.com/badges/image/bioexcel/biobb_workflows.svg)](https://hub.docker.com/r/bioexcel/biobb_workflows/ "bioexcel/biobb_workflows")
+[![Apache License, 2.0](https://img.shields.io/github/license/bioexcel/biobb_workflows.svg)](LICENSE)
 
 The Jupyter notebook [Lysozyme.ipynb](biobb_workflows/lysozyme_tutorial/notebooks/Lysozyme.ipynb) shows a _Lysozyme + Mutations tutorial_ using the [BioExcel](http://bioexcel.eu/) building blocks [biobb](https://bioexcel.eu/research/projects/biobb_standardization/).
 
 You may execute the notebook on a free cloud instance using [myBinder](https://mybinder.org/v2/gh/bioexcel/biobb_workflows/master?filepath=biobb_workflows%2Flysozyme_tutorial%2Fnotebooks%2FLysozyme.ipynb), or for better performance/extensibility in your on instance of [Jupyter](https://jupyter.org/) Notebook.
+
+## Docker image
+
+The [Docker](https://www.docker.com/) image [bioexcel/biobb_workflows](https://hub.docker.com/r/bioexcel/biobb_workflows/) is provided, based on [myBinder](https://mybinder.org).
+
+Launch it as:
+
+```
+docker run -p 8888:8888 -it bioexcel/biobb_workflows
+```
+
+Then access the Notebook at http://127.0.0.1:8888/ using the provided token.
+
+_Tip:_ If you have an NVIDIA GPU and [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker) installed, launch with `nvidia-docker` instead of `docker` for hardware-accelerated GROMACS.
 
 ## BioConda installation
 
