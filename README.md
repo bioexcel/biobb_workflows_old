@@ -72,3 +72,24 @@ jupyter notebook biobb_workflows/lysozyme_tutorial/notebooks/Lysozyme.ipynb
 
 A browser window should appear, or click the link provided. 
 
+
+## Copyright & Licensing
+
+This software has been developed in the MMB group (http://mmb.irbbarcelona.org) at the
+BSC (http://www.bsc.es/) & IRB (https://www.irbbarcelona.org/) and 
+[eScience Lab](https://esciencelab.org.uk/) group at [The University of Manchester](https://www.manchester.ac.uk/)
+for the European BioExcel (http://bioexcel.eu/) CoE, funded by the European Commission
+(EU H2020 [675728](https://cordis.europa.eu/project/id/675728), [823830](https://cordis.europa.eu/project/id/823830)).
+
+* (c) 2018-2019 [Barcelona Supercomputing Center](https://www.bsc.es/)
+* (c) 2018-2019 [Institute for Research in Biomedicine](https://www.irbbarcelona.org/)
+* (c) 2018-2019 [The University of Manchester](https://www.manchester.ac.uk/)
+
+
+The Jupyter Notebook is based on the [Lysozyme in Water GROMACS tutorial](http://www.mdtutorials.com/gmx/lysozyme/01_pdb2gmx.html) by Justin A. Lemkul at Virginia Tech Department of Biochemistry.
+
+Licensed under the
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file
+[LICENSE](LICENSE) for details.
+
+![](https://bioexcel.eu/wp-content/uploads/2015/12/Bioexcell_logo_1080px_transp.png "Bioexcel")
