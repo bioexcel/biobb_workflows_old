@@ -6,6 +6,8 @@ dependencies:
   - biobb_common
   - biobb_io
   - biobb_model
+  - biobb_structure_checking
+  - biobb_structure_manager
   - biobb_md
   - nglview
   - simpletraj
